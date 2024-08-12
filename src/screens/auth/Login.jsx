@@ -18,14 +18,14 @@ function Login() {
         <div className="signin-section">
           <h2 style={{textAlign:'center'}}>Sign in</h2>
           <form>
-            {/* <div className="input-field">
+            <div className="input-field">
               <label>User Name</label>
               <input type="text" placeholder="User Name" required />
             </div>
             <div className="input-field">
               <label>Password</label>
               <input type="password" placeholder="Password" required />
-            </div> */}
+            </div>
             <div className="options">
               <label>
                 <input type="checkbox" />
