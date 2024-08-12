@@ -6,7 +6,7 @@ import axios from "axios"
 
 const authEndpoint = "https://accounts.spotify.com/authorize?"
 const clientId = import.meta.env.VITE_CLIENT_ID;
-const redirectUri = "http://localhost:3000"
+const redirectUri = "https://infinito-react-music-player.onrender.com/"
 const scopes = ["user-library-read", "playlist-read-private"]
 
 export const loginEndpoint = `${authEndpoint}client_id=${clientId}&redirect_uri=${redirectUri}&scope=${scopes.join(
